@@ -13,13 +13,18 @@ from itertools import izip
 
 # you should follow this link: https://radimrehurek.com/gensim/wiki.html
 
-doc = ["Carly Fiorina likes to joke that she used to be 'really unemployable' =",
-       "The Republican presidential hopeful graduated from Stanford University with a degree in medieval history and philosophy",
-       "after which she went to law school",
-       "She hated it so much, she quit after a single semester",
-       "Eventually, Fiorina got a job as a receptionist: typing, filing and answering the phone"]
+doc = []
+stoplist = set()
+with open("testArticle.txt", 'r') as article:
+        for line in article:
+            doc.append(line.strip())
 
-stoplist = set('for a of the and to in she he after which it quite ='.split())
+with open("stopwords.txt", 'r') as sw:
+        for line in sw:
+            for word in line.split():
+                if word:
+                    stoplist.add(word)
+
 texts = [[word for word in document.lower().split() if word not in stoplist]
          for document in doc]
 
@@ -56,5 +61,5 @@ for l,t in izip(corpus_lda,corpus):
 print
 
 # But I am unable to print out the topics, how should i do it?
-for top in lda.print_topics(10):
+for top in lda.print_topics(100):
     print top
