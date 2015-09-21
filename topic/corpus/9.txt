@@ -1,0 +1,7 @@
+The Internet Movie Database (abbreviated IMDb) is an online database of information related to films, television programs, and video games, including cast, production crew, fictional characters, biographies, plot summaries, trivia and reviews. Actors and crew can post their own résumé and upload photos of themselves for a yearly fee. U.S. users can also view over 6,000 movies and television shows from CBS, Sony, and various independent film makers.
+
+Launched in 1990 by professional computer programmer Col Needham, the company was incorporated in the UK as Internet Movie Database Ltd in 1996, with revenue generated through advertising, licensing, and partnerships. In 1998, it became a subsidiary of Amazon.com, who were then able to use it as an advertising resource for selling DVDs and videotapes.
+
+As of September 2015, IMDb had approximately 3.4 million titles (includes episodes) and 6.7 million personalities in its database,[2] as well as 60 million registered users and is an Alexa Top 50 site.
+
+The site enables registered users to submit new material and request edits to existing entries. Although all data is checked before going live, the system has been open to abuse, and occasional errors are acknowledged. Users are also invited to rate any film on a scale of 1 to 10, and the totals are converted into a weighted mean-rating that is displayed beside each title, with online filters employed to deter ballot-stuffing. The site also features message boards, which stimulate regular debates among authenticated users.

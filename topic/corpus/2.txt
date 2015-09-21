@@ -1,0 +1,9 @@
+Litecoin (LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority.
+
+After bitcoin, Litecoin is the second-largest true cryptocurrency by market capitalization.
+
+Litecoin was released via an open-source client on GitHub on October 7, 2011 by Charles Lee, a former Google employee. It was a fork of the Bitcoin-Qt client, differing primarily by having a decreased block generation time, increased maximum number of coins, different hashing algorithm (scrypt, instead of SHA-256), and a slightly modified GUI.
+
+During the month of November 2013, the aggregate value of Litecoin experienced massive growth which included a 100% leap within 24 hours.
+
+Litecoin reached a $1 billion marketcap in November 2013. As of August 2015, its market capitalization is US$181,542,352 with the price at $4 levels.

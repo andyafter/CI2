@@ -1,0 +1,17 @@
+In the first enforcement case against a Bitcoin operator after recognizing the cryptocurrency as a commodity, Bitcoin operator Coinflip has reached a settlement with the U.S. Commodity Futures Trading Commission (CFTC).
+
+With the new ruling that virtual currencies are to be recognized as commodities that are under the rules and regulations of existing laws, the U.S. derivatives regulators brought their first case against a Bitcoin trading platform, Reuters reports.
+
+The Federal agency said that a settlement had been reached with San Francisco-based trading platform Coinflip and its CEO Francisco Riordan.
+
+The charges were originally brought forward against the company and its CEO for conducting activity related to commodity options transactions without complying with CFTC regulations and the Commodity Exchange Act (CEA).
+
+Specifically, the charges were for “operating a facility for the trading or processing of commodity options without complying with the CEA or CFTC Regulations otherwise applicable to swaps or conducting the activity pursuant to the CFTC’s exemption for trade options.”
+
+The agency noted that Coinflip was operating Derivabit, an online platform that facilitated buyers and sellers with Bitcoin options. Now that Bitcoin is considered a “commodity”, the CFTC contends that Coinflip should have been registered and compliant with laws that govern ‘swaps.’
+
+In no unclear terms, the head of CFTC’s Enforcement Division, Aitan Goleman, said:
+
+While there is a lot of excitement surrounding Bitcoin and other virtual currencies, innovation does not excuse those acting in this space from following the same rules applicable to all participants in the commodity derivatives markets.
+
+Riordan said he felt the settlement with the CFTC was fair after representing himself in the case. Furthermore, the CFTC did not impose any penalties on Riordan or his firm, and the case was settled without him admitting or denying the charges.
