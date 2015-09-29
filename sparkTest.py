@@ -19,7 +19,7 @@ with open("testArticle.txt", 'r') as article:
         for line in article:
             doc.append(line.strip())
 
-with open("stopwords.txt", 'r') as sw:
+with open("./topic/stopwords.txt", 'r') as sw:
         for line in sw:
             for word in line.split():
                 if word:
