@@ -7,3 +7,6 @@ In the topic folder there are couple scripts to test and run topic modeling stuf
 
 ## Genetic Algorithm
 This folder is for the computational intelligence CA. It is about using genetic algorithm to draw fractal shapes and improve the beauty.
+
+## Text Mining
+Of course in this folder you will find the text mining stuff.
