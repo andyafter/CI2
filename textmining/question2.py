@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
-# Import all packages
 import random
 import sklearn
 import pandas as pd
@@ -17,56 +13,62 @@ from pandas import concat
 from sklearn.cross_validation import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from nltk.corpus import stopwords
-
 from nltk import pos_tag
 
+import nltk
+import math
+import string
 
-data=pd.read_csv("osha.csv")
-
+#data=pd.read_csv("classification/osha.csv")
+data=pd.read_csv("classification/MsiaAccidentCases.csv")
 caseTitle=data["Title Case"]
-
 stopwords = stopwords.words('english')
 
 labelled=[]
 for row in caseTitle:
+    # print row
+    if type(row) != type("andy"):
+        continue
     text_nopunc=row.translate(string.maketrans("",""), string.punctuation)
     #text_nopunc=text_nopunc.lower()
     labelled.append(text_nopunc)
     #labelled = labelled.append(word_tokenize(labelled))
-    
+
 
 p=[]
 for row in caseTitle:
+    if type(row) != type("andy"): # this is actually ugly
+        continue
     row=row.lower()
-    pos = pos_tag(word_tokenize(row))
+    pos = pos_tag(nltk.word_tokenize(row))
     p.append(pos)
 
 grammar = r"""
-        
+
         #PP:
             #{<NN|NNP|VB|VBD|VBG|VBN|VBP|VBZ|JJ>*<IN>}
         #PP:
             #{<NN|NNP|VB|VBD|VBG|VBN|VBP|VBZ|JJ|NNS>*<IN|TO>}
-        NP: 
+        NP:
             #{<IN|DT|TO><NN.*|VB.*|VBN.*|VBG.*|JJ.*|VBD.*|NNP.*>+}
             {<IN|TO><DT>?<NN.*|NNP.*|NNS.*>+}
             #{<PP><DT|TO>?<NN.*|VB.*|VBN.*|VBG.*|JJ.*|VBD.*|NNP.*>+}
-            
+
 """
 
 
 def leaves(tree):
     """Finds NP (nounphrase) leaf nodes of a chunk tree."""
-    for subtree in tree.subtrees(filter = lambda t: t.node=='NP'):
+    for subtree in tree.subtrees(filter = lambda t: t.label()=='NP'):
         yield subtree.leaves()
-        
+
 def normalise(word):
     """Normalises words to lowercase and stems and lemmatizes it."""
     word = word.lower()
     #word = stemmer.stem_word(word)
     #word = lemmatizer.lemmatize(word)
     return word
-    
+
 def acceptable_word(word):
     """Checks conditions for acceptable word: length, stopword."""
     accepted = bool(2 <= len(word) <= 40
@@ -89,8 +91,6 @@ death_words = {}
 sort_terms = {}
 
 for r in p:
-    #print nltk.ne_chunk(r)
-    #print chunker.parse(r)
     tree = chunker.parse(r)
     terms = get_terms(tree)
     t = ""
@@ -107,10 +107,10 @@ for r in p:
             death_causes[t] = 1
         else:
             death_causes[t] += 1
-  
 
+
+print "from here all of it are the sorted words"
 sort_terms = sorted(death_causes.iteritems(),key=lambda asd:asd[1],reverse=True)
 
 for i in range(0,10,+1):
     print sort_terms[i]
-    

@@ -1,15 +1,22 @@
 import random
 import sklearn
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cross_validation import train_test_split
 from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
 from sklearn import preprocessing
 from sklearn import metrics
-import matplotlib.pyplot as plt
-import pylab as pl
-
+from sklearn.feature_selection import SelectKBest
+from sklearn.feature_extraction.text import TfidfVectorizer #as vectorizer
+from sklearn.cross_validation import train_test_split
+from sklearn.feature_selection import chi2
+from sklearn.metrics import confusion_matrix, classification_report
 
 
 def create_tfidf_training_data(docs):
