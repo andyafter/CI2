@@ -1,7 +1,5 @@
 \begin{thebibliography}{1}
 
-<<<<<<< HEAD
-=======
 \bibitem{ashlock2006evolutionary}
 Daniel Ashlock.
 \newblock {\em Evolutionary computation for modeling and optimization}.
@@ -13,11 +11,19 @@ Jon McCormack.
 \newblock In {\em Applications of Evolutionary Computing}, pages 428--436.
   Springer, 2005.
 
->>>>>>> c9c773ef34a37b0834fe333d48b82f1697e1876b
-\bibitem{Figueredo:2009dg}
-A.~J. Figueredo and P.~S.~A. Wolf.
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330, 2009.
+\bibitem{deep_dreams}
+Google.
+\newblock Deep dream, 2015.
+\newblock [Online; accessed 2015].
+
+\bibitem{julia_wiki}
+Wikipedia.
+\newblock Julia set, 2015.
+\newblock [Online; accessed 24-Oct-2015].
+
+\bibitem{fractal_flames}
+Wikipedia.
+\newblock Fractal flames, 2015.
+\newblock [Online; accessed 28-Oct-2015].
 
 \end{thebibliography}

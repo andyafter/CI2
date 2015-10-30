@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def m(a):
     z = 0
     for n in range(1, 100):
-        z = z**2 + a
+        z = z**4 + a
         if abs(z) > 2:
             return n
     return NaN
