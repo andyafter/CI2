@@ -51,33 +51,26 @@
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
 
-\JournalInfo{National University of Singapore, ISS, 26-Oct, 2015} % Journal information
-\Archive{Computational Intelligence II} % Additional notes (e.g. copyright, DOI, review/research article)
+\JournalInfo{Journal, Vol. XXI, No. 1, 1-5, 2013} % Journal information
+\Archive{Additional note} % Additional notes (e.g. copyright, DOI, review/research article)
 
-\PaperTitle{An Exploration of Implementing GA in Fractals} % Article title
+\PaperTitle{Article Title} % Article title
 
-\Authors{Pan An\textsuperscript{1}(A0134556A), Devendra Desale\textsuperscript{1}(A0134465E)} % Authors
-%\affiliation{\textsuperscript{1}\textit{Department of Biology, University of Examples, London, United Kingdom}} % Author affiliation
-%\affiliation{\textsuperscript{2}\textit{Department of Chemistry, University of Examples, London, United Kingdom}} % Author affiliation
-%\affiliation{*\textbf{Corresponding author}: john@smith.com} % Corresponding author
+\Authors{John Smith\textsuperscript{1}*, James Smith\textsuperscript{2}} % Authors
+\affiliation{\textsuperscript{1}\textit{Department of Biology, University of Examples, London, United Kingdom}} % Author affiliation
+\affiliation{\textsuperscript{2}\textit{Department of Chemistry, University of Examples, London, United Kingdom}} % Author affiliation
+\affiliation{*\textbf{Corresponding author}: john@smith.com} % Corresponding author
 
-\Keywords{Genetic Algorithm, Fractals, JuliaSet} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\Keywords{Keyword1 --- Keyword2 --- Keyword3} % Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Keywords} % Defines the keywords heading name
 
 %----------------------------------------------------------------------------------------
-%	ABSTRACT dalianligongdaxue ruanjainxuyean
+%	ABSTRACT
 %----------------------------------------------------------------------------------------
 
-%\Abstract{\lipsum[1]~}
-\Abstract{
- Genetic algorithm(GA) is a search heuristic that mimics the process of natural selection.
- Genetic algorithm can help search and optimize while at the same time, remain a small amount of randomness to the original problems.
- This paper presents some exploration of combining fractals with genetic algorithms. Different types of fractals have been discussed together with multiple ways of implementation of GA. We specifically surveyed and modeled on MaldelbrotSet and JuliaSet how genetic algorithms can be used to enhance the process. The presented model covers both esthetical and speed optimization level. Though genetic algorithm is not able to provide optimization for real time generation of fractals, the randomness of the algorithm does help provide more vivid visual effect to the graphics.
- %%%%%%%%%%%%%%% make some changes and add detailed about what you did
-}
-%----------------------------------------------------------------------------------------
+\Abstract{\lipsum[1]~}
 
-% 41.3529999256134 seconds for 3200*2400
+%----------------------------------------------------------------------------------------
 
 \begin{document}
 
@@ -97,38 +90,10 @@
 
 \addcontentsline{toc}{section}{Introduction} % Adds this section to the table of contents
 
-A fractal is a natural phenomenon or a mathematical set that exhibits a repeating pattern that displays at every scale. It is also known as expanding symmetry or evolving symmetry. If the replication is exactly the same at every scale, it is called a self-similar pattern.
+\lipsum[1-3] % Dummy text
+ and some mathematics $\cos\pi=-1$ and $\alpha$ in the text\footnote{And some mathematics $\cos\pi=-1$ and $\alpha$ in the text.}.
 
-% add bibs to this part to make it look cool and fun
-"As far as the laws of mathematics refer to reality, they are not certain, and as far as they are certain, they do not refer to reality." Quoting from Albert Einstein, an intuitive understanding about chaos. Recognizing the chaotic, fractal nature of our world can give us new insight, power, and wisdom. For example, by understanding the complex, chaotic dynamics of the atmosphere, a balloon pilot can "steer" a balloon to a desired location. By understanding that our ecosystems, our social systems, and our economic systems are interconnected, we can hope to avoid actions which may end up being detrimental to our long-term well-being.
-
-Mandelbrotset, Juliaset, strange attractors are some of the most famous fractal models that have been known by people for decades. Fractals models can be either exact or combined with chaos. Previous work of combining genetic algorithms has been conducted on some classic fractal models. Ashlock et. al.~\cite{ashlock2006evolutionary} presented  a collection of fitness functions that permit three-parameter evolutionary search of the Mandelbrot set to locate interesting views. The collection includes several pieces of graphics that is generated with GA. J. McCormack \cite{mccormack2005open}  researched and listed five 'open problems'  of  evolutionary music
-and art. Each problem is explained and the impetus and background for it is described
-in the context of creative evolutionary systems.
-
-
-Despite the colors, the shape and the complexity, these fractals have simple models at the back. This paper explores different ways to implement genetic algorithms into different aspects of  generating a fractal. These aspects includes the efficiency of resources used when generating a fractal and the impact of genetic algorithms towards the visual effects of these fractals. In order to achieve something from this experimental exploration, the following principles are taken into consideration when building the model:
-
-\begin{itemize}
-\item Unpredictability
-\item Order / Disorder Chaos is not simply disorder
-\item Mixing
-\end{itemize}
-
-The paper is organized as the following description: in Chaper. 1 several fractal models are presented together with some tests in the visual effects. Chapter. 2 contains some of the principles and ideas we had when designing.
- Chapter. 3 to 4 contains our models and some details for combining genetic algorithms into fractals.
-
-
-%% put all these to other places
-\href{http://giphy.com/gifs/l41lUTY3yTLywvYRO?utm_source=facebook&utm_medium=embed&utm_campaign=share}{\bf This is the link to the Juliaset animation.}
-%%%%    http://i.giphy.com/3oEduP6LzD2FmfkwMg.gif
 %------------------------------------------------
-
-\section{Classic Fractals}
-The word "fractal" often has different connotations for laypeople than for mathematicians, where the layperson is more likely to be familiar with fractal art than a mathematical conception. The mathematical concept is difficult to define formally even for mathematicians, but key features can be understood with very simple mathematics.
-
-\subsection{MandelbrotSet}
-
 
 \section{Methods}
 
@@ -223,6 +188,7 @@ Richard & Miles & $2$ \\
 \lipsum[14] % Dummy text
 
 \subsection{Subsection}
+潘安
 \lipsum[15-23] % Dummy text
 
 %------------------------------------------------

@@ -1,5 +1,19 @@
 \begin{thebibliography}{1}
 
+<<<<<<< HEAD
+=======
+\bibitem{ashlock2006evolutionary}
+Daniel Ashlock.
+\newblock {\em Evolutionary computation for modeling and optimization}.
+\newblock Springer Science \& Business Media, 2006.
+
+\bibitem{mccormack2005open}
+Jon McCormack.
+\newblock Open problems in evolutionary music and art.
+\newblock In {\em Applications of Evolutionary Computing}, pages 428--436.
+  Springer, 2005.
+
+>>>>>>> c9c773ef34a37b0834fe333d48b82f1697e1876b
 \bibitem{Figueredo:2009dg}
 A.~J. Figueredo and P.~S.~A. Wolf.
 \newblock Assortative pairing and life history strategy - a cross-cultural

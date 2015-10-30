@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: article_3.aux
@@ -44,3 +45,8 @@ warning$ -- 0
 while$ -- 2
 width$ -- 2
 write$ -- 13
+=======
+This is BibTeX, Version 0.99dThe top-level auxiliary file: article_3.aux
+The style file: unsrt.bst
+Database file #1: sample.bib
+>>>>>>> c9c773ef34a37b0834fe333d48b82f1697e1876b
