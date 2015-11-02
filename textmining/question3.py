@@ -81,7 +81,7 @@ def get_terms(tree):
 
 chunker = nltk.RegexpParser(grammar)
 
-
+'''
 n = 0
 death_causes = {}
 death_words = {}
@@ -112,3 +112,4 @@ sort_terms = sorted(death_causes.iteritems(),key=lambda asd:asd[1],reverse=True)
 
 for i in range(0,10,+1):
     print sort_terms[i]
+'''

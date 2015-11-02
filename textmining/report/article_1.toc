@@ -1,0 +1,17 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Fatal Accidents}{1}
+\contentsline {subsection}{\numberline {1.1}Data Preprocessing}{1}
+\contentsline {subsection}{\numberline {1.2}Classification}{2}
+\contentsline {subsection}{\numberline {1.3}Prediction}{2}
+\contentsline {section}{\numberline {2}Objects of Accident}{2}
+\contentsline {subsection}{\numberline {2.1}Data Preprocessing}{2}
+\contentsline {subsection}{\numberline {2.2}POS Tagging}{2}
+\contentsline {subsection}{\numberline {2.3}Regular Expression}{3}
+\contentsline {section}{\numberline {3}Occupations}{3}
+\contentsline {subsection}{\numberline {3.1}Data Preprocessing}{3}
+\contentsline {subsection}{\numberline {3.2}POS Tagging and Results}{3}
+\contentsline {section}{\numberline {4}Common Activities}{3}
+\contentsline {subsection}{\numberline {4.1}Data Preprocessing}{3}
+\contentsline {subsection}{\numberline {4.2}POS Tagging and Chunking}{4}
+\contentsline {subsection}{\numberline {4.3}Finding Activities}{4}
+\contentsline {section}{\numberline {5}Conclusion}{4}
