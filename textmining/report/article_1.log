@@ -1,10 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  2 NOV 2015 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  3 NOV 2015 01:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input article_1.tex
+**article_1.tex
 (./article_1.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2015/05/06 v3.17a KOMA-Script document class (article)
 
@@ -520,36 +522,50 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write3
 \openout3 = `article_1.toc'.
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 136.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-Underfull \hbox (badness 1622) in paragraph at lines 166--168
+Underfull \hbox (badness 1622) in paragraph at lines 240--242
 []\OT1/cmr/m/n/10.95 (+20) For SVM con-fig-u-ra-tion we set $\OML/cmm/m/it/10.9
 5 C \OT1/cmr/m/n/10.95 (+20) = 5000$,
  []
 
-<confusion.png, id=14, 498.86375pt x 397.485pt>
+<confusion.png, id=15, 498.86375pt x 397.485pt>
 File: confusion.png Graphic file (type png)
  <use confusion.png>
-Package pdftex.def Info: confusion.png used on input line 173.
+Package pdftex.def Info: confusion.png used on input line 247.
 (pdftex.def)             Requested size: 150.9509pt x 120.27142pt.
 
-<class_report.png, id=16, 514.92375pt x 230.8625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<class_report.png, id=17, 514.92375pt x 230.8625pt>
 File: class_report.png Graphic file (type png)
  <use class_report.png>
-Package pdftex.def Info: class_report.png used on input line 183.
+Package pdftex.def Info: class_report.png used on input line 257.
 (pdftex.def)             Requested size: 251.58229pt x 112.79247pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 183--184
+Overfull \hbox (5.0pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-<class_result.png, id=17, 275.0275pt x 349.305pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] <class_result.png, id=23, 275.0275pt x 349.305pt>
 File: class_result.png Graphic file (type png)
  <use class_result.png>
-Package pdftex.def Info: class_result.png used on input line 197.
+Package pdftex.def Info: class_result.png used on input line 271.
 (pdftex.def)             Requested size: 100.63138pt x 127.80705pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -605,8 +621,6 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-[2 <./confusion.png> <./class_report.png> <./class_result.png>]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no ‚ in font cmr10!
@@ -628,10 +642,10 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<obj11.png, id=27, 125.46875pt x 157.58875pt>
+<obj11.png, id=24, 125.46875pt x 157.58875pt>
 File: obj11.png Graphic file (type png)
  <use obj11.png>
-Package pdftex.def Info: obj11.png used on input line 254.
+Package pdftex.def Info: obj11.png used on input line 328.
 (pdftex.def)             Requested size: 100.63138pt x 126.39818pt.
 
 
@@ -646,12 +660,13 @@ Class scrartcl Warning: Usage of deprecated font command `\bf'!
 (scrartcl)              Note also, that KOMA-Script will remove the definition
 (scrartcl)              of `\bf' anytime until release of about version 3.20.
 (scrartcl)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrartcl)              by `\normalfont \bfseries ' on input line 258.
+(scrartcl)              by `\normalfont \bfseries ' on input line 332.
 
-<common_objects.png, id=28, 849.1725pt x 449.68pt>
+[3 <./confusion.png> <./class_report.png> <./class_result.png> <./obj11.png>]
+<common_objects.png, id=33, 849.1725pt x 449.68pt>
 File: common_objects.png Graphic file (type png)
  <use common_objects.png>
-Package pdftex.def Info: common_objects.png used on input line 268.
+Package pdftex.def Info: common_objects.png used on input line 342.
 (pdftex.def)             Requested size: 201.26276pt x 106.58054pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -669,10 +684,22 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Overfull \hbox (197.47101pt too wide) detected at line 309
-\OML/cmm/m/it/10.95 Employee; Worker; Operator; Carpenter; Driver; Mechanic; In
-staller; Foreman; Zookeeper
- []
+
+Class scrartcl Warning: Usage of deprecated font command `\bf'!
+(scrartcl)              You should note, that in 1994 font command `\bf' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\bf' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrartcl)              by `\normalfont \bfseries ' on input line 382.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 382.
 
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -683,53 +710,55 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[3 <./obj11.png> <./common_objects.png>]
 <q41.png, id=34, 397.485pt x 471.7625pt>
 File: q41.png Graphic file (type png)
  <use q41.png>
-Package pdftex.def Info: q41.png used on input line 353.
-(pdftex.def)             Requested size: 85.35826pt x 101.30458pt.
+Package pdftex.def Info: q41.png used on input line 428.
+(pdftex.def)             Requested size: 113.81102pt x 135.07997pt.
 
 <q42.png, id=35, 397.485pt x 481.8pt>
 File: q42.png Graphic file (type png)
  <use q42.png>
-Package pdftex.def Info: q42.png used on input line 355.
-(pdftex.def)             Requested size: 85.35826pt x 103.45999pt.
+Package pdftex.def Info: q42.png used on input line 430.
+(pdftex.def)             Requested size: 113.81102pt x 137.95401pt.
 
 <bef_acc.png, id=36, 844.15375pt x 481.8pt>
 File: bef_acc.png Graphic file (type png)
  <use bef_acc.png>
-Package pdftex.def Info: bef_acc.png used on input line 365.
+Package pdftex.def Info: bef_acc.png used on input line 440.
 (pdftex.def)             Requested size: 251.58229pt x 143.58539pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 365--366
- [][] 
- []
-
-<act.png, id=37, 848.16875pt x 518.93875pt>
-File: act.png Graphic file (type png)
- <use act.png>
-Package pdftex.def Info: act.png used on input line 372.
-(pdftex.def)             Requested size: 251.58229pt x 153.92494pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 372--373
+Overfull \hbox (5.0pt too wide) in paragraph at lines 440--441
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./article_1.bbl) 
+<act.png, id=37, 848.16875pt x 518.93875pt>
+File: act.png Graphic file (type png)
+ <use act.png>
+Package pdftex.def Info: act.png used on input line 447.
+(pdftex.def)             Requested size: 251.58229pt x 153.92494pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 447--448
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./common_objects.png>] (./article_1.bbl) 
 AED: lastpage setting LastPage
-[4 <./q41.png> <./q42.png> <./bef_acc.png> <./act.png>] (./article_1.aux) ) 
+[5 <./q41.png> <./q42.png> <./bef_acc.png> <./act.png>] (./article_1.aux) ) 
 Here is how much of TeX's memory you used:
- 8880 strings out of 493089
- 140978 string characters out of 6134841
- 404463 words of memory out of 5000000
- 12100 multiletter control sequences out of 15000+600000
- 25592 words of font info for 108 fonts, out of 8000000 for 9000
+ 8909 strings out of 493089
+ 141418 string characters out of 6134841
+ 404469 words of memory out of 5000000
+ 12120 multiletter control sequences out of 15000+600000
+ 25745 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,47p,349b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,47p,342b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/us
 r/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/
@@ -744,10 +773,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvro8a.pfb>
-Output written on article_1.pdf (4 pages, 1370198 bytes).
+Output written on article_1.pdf (5 pages, 1375059 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26158 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -5,4 +5,14 @@ NLTK Project.
 \newblock Natural language processing toolkit, 2015.
 \newblock [Online; accessed 24-Oct-2015].
 
+\bibitem{pos}
+Wikipedia.
+\newblock Part of speech tagging, 2015.
+\newblock [Online; accessed 19-Oct-2015].
+
+\bibitem{svm}
+Wikipedia.
+\newblock Support vector machine, 2015.
+\newblock [Online; accessed 2-Nov-2015].
+
 \end{thebibliography}

@@ -112,7 +112,8 @@ In this paper we are going to
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
-\section*{Introduction}
+
+\section*{Business Goal}
 Despite improvement in recent years, the construction industry remains
 the top contributor for workplace fatalities in Singapore. In
 construction industry, after a fatal or catastrophic accident happens,
@@ -124,7 +125,72 @@ be analyzed to identify occupations and workplace activities that face
 higher safety risks than others. Based on the result of analysis,
 construction project managers and safety professionals can then take
 appropriate measures to mitigate the identified risks and prevent the
-occurrence of similar accidents. All of our tasks are finished with NLTK~\cite{nltk}.
+occurrence of similar accidents. All of our tasks are finished with
+NLTK~\cite{nltk}.
+
+\section*{Findings}
+For each of the data analysis task some new information will be
+generated. The following discovery might be interesting:
+
+\begin{itemize}
+\item Three of the main reasons that causes fatal injuries to workers
+  are:
+  \begin{enumerate}
+  \item Struck by moving objects
+ \item Caught in/between objects
+\item Falling from high places
+  \end{enumerate}
+
+\item Large amount of fatal accidents involves falling, including
+  falling objects and people falling.
+
+\item Almost all the accidents happen to employees and workers.
+
+\end{itemize}
+
+The most common activities were found as working on (something), operating on machines,
+installing the equipment.
+Current analysis can be extended to performed as per the type of accidents.
+Finding the common activities is very complex part, as the activities vary too much and even the
+similar activities are written in different ways.
+In many cases activity is not mentioned in generic way, this thing causes issue when we want to
+drill down to different activities.
+\section*{Introduction}
+In construction industry, after a fatal or catastrophic accident
+happens, an inspection is conducted in response, generating a report
+including a Fatality and Catastrophe Investigation Summary. The
+summaries provide a complete description of the incident, generally
+including events leading to the incident and causal factors. These
+summaries can be analyzed to identify occupations and workplace
+activities that face higher safety risks than others. Based on the
+result of analysis, construction project managers and safety
+professionals can then take appropriate measures to mitigate the
+identified risks and prevent the occurrence of similar accidents.
+
+This paper proposed methods for text data mining in these tasks. These
+methods uses combinations of different methods in natural language
+processing:
+
+\begin{enumerate}
+\item SVM(for classification)
+\item POS Tagging
+\item Grammar and Regular Expression
+\end{enumerate}
+
+Support vector machine~\cite{svm} is used for basic accident case
+classification. Support Vector Machines are very specific class of
+algorithms, characterized by usage of kernels, absence of local
+minima, sparseness of the solution and capacity control obtained by
+acting on the margin, or on number of support vectors, etc.
+
+POS tagging~\cite{pos} is now done in the context of computational linguistics,
+using algorithms which associate discrete terms, as well as hidden
+parts of speech, in accordance with a set of descriptive tags. In this
+paper POS tagging is one of the key component for extracting
+information from large amount of messages.
+
+
+
 
 \section{Fatal Accidents}
 Practice the concepts and techniques we have learned in Text Mining
@@ -135,9 +201,17 @@ out kinds of objects which cause the accidents. Extract the more risky
 occupations in such accidents. Find out the common activities that the
 victims were engaged in prior to the accident.
 
+Our method is to use SVM classification method to train and
+test a model, then use the model to do classification on type of
+accidents (in terms of main causes) on new data. Support Vector
+Machine can be applied not only to classification problems but also to
+the case of regression. Still it contains all the main features that
+characterize maximum margin algorithm: a non-linear function is leaned
+by linear learning machine mapping into high dimensional kernel
+induced feature space. The capacity of the system is controlled by
+parameters that do not depend on the dimensionality of feature space.
 
 
-Our method is to use SVM classification method to train and test a model, then use the model to do classification on type of accidents (in terms of main causes) on new data.
 
 
 \subsection{Data Preprocessing}
@@ -305,8 +379,9 @@ occupation.
 After we run the test we got the following occupations as the most
 frequently involved in accidents:
 
-$$Employee, Worker, Operator, Carpenter, Driver, Mechanic, Installer,
-Foreman, Zookeeper$$
+{\bf $$\small Employee, Worker, Operator, Carpenter,$$
+$$Driver, Mechanic, Installer,$$
+$$Foreman, Zookeeper$$}
 
 There might be inaccuracy with the result, further research will cover
 how to increase the accuracy.
@@ -350,9 +425,9 @@ This gives us all the actions the they performed.
 
 \begin{figure}%
     \centering
-    \includegraphics[width=3cm]{q41.png}
+    \includegraphics[width=4cm]{q41.png}
     %\qquad
-    \includegraphics[width=3cm]{q42.png}
+    \includegraphics[width=4cm]{q42.png}
     \caption{(Left)Common Action Involved Together with Relavent
       People. (Right)Common Actions before Accidents.}%
 \end{figure}
@@ -375,6 +450,10 @@ The following word nets are to show the word frequency:
 
 
 \section{Conclusion}
+
+Use SVM algorithm to build classification model to find out type of
+accidents (in terms of main causes) which are more common in fatal or
+catastrophic accidents of the osha data.
 
 The common activities in which person was involved could be found.
 Also we can get the things involved and other culprit for the

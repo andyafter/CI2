@@ -2,5 +2,7 @@
  "sample"
  (lambda ()
    (LaTeX-add-bibitems
-    "nltk")))
+    "nltk"
+    "svm"
+    "pos")))
 
