@@ -1,5 +1,37 @@
 \begin{thebibliography}{1}
 
+\bibitem{mpandas}
+Wes McKinney.
+\newblock pandas: a foundational python library for data analysis and
+  statistics.
+
+\bibitem{pandas2010}
+Wes McKinney.
+\newblock Data structures for statistical computing in python.
+\newblock In St\'efan van~der Walt and Jarrod Millman, editors, {\em
+  Proceedings of the 9th Python in Science Conference}, pages 51 -- 56, 2010.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{pimm2012natural}
+Christophe Pimm, C{\'e}line Raynal, Nikola Tulechki, Eric Hermann, Gr{\'e}gory
+  Caudy, and Ludovic Tanguy.
+\newblock Natural language processing (nlp) tools for the analysis of incident
+  and accident reports.
+\newblock In {\em International Conference on Human-Computer Interaction in
+  Aerospace (HCI-Aero)}, 2012.
+
+\bibitem{popowich2005using}
+Fred Popowich.
+\newblock Using text mining and natural language processing for health care
+  claims processing.
+\newblock {\em ACM SIGKDD Explorations Newsletter}, 7(1):59--66, 2005.
+
 \bibitem{nltk}
 NLTK Project.
 \newblock Natural language processing toolkit, 2015.

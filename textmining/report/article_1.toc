@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Fatal Accidents}{2}
 \contentsline {subsection}{\numberline {1.1}Data Preprocessing}{2}
 \contentsline {subsection}{\numberline {1.2}Classification}{2}
-\contentsline {subsection}{\numberline {1.3}Prediction}{2}
+\contentsline {subsection}{\numberline {1.3}Prediction}{3}
 \contentsline {section}{\numberline {2}Objects of Accident}{3}
 \contentsline {subsection}{\numberline {2.1}Data Preprocessing}{3}
 \contentsline {subsection}{\numberline {2.2}POS Tagging}{3}
@@ -12,6 +12,6 @@
 \contentsline {subsection}{\numberline {3.2}POS Tagging and Results}{4}
 \contentsline {section}{\numberline {4}Common Activities}{4}
 \contentsline {subsection}{\numberline {4.1}Data Preprocessing}{4}
-\contentsline {subsection}{\numberline {4.2}POS Tagging and Chunking}{4}
-\contentsline {subsection}{\numberline {4.3}Finding Activities}{4}
+\contentsline {subsection}{\numberline {4.2}POS Tagging and Chunking}{5}
+\contentsline {subsection}{\numberline {4.3}Finding Activities}{5}
 \contentsline {section}{\numberline {5}Conclusion}{5}
