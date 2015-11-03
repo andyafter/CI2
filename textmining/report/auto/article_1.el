@@ -4,7 +4,7 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("scrartcl" "DIV=calc" "paper=a4" "fontsize=11pt" "twocolumn")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("babel" "english") ("microtype" "protrusion=true" "expansion=true") ("xcolor" "svgnames") ("caption" "hang" "small" "labelfont=bf" "up" "textfont=it")))
+                     '(("babel" "english") ("microtype" "protrusion=true" "expansion=true") ("xcolor" "svgnames") ("caption" "hang" "small" "labelfont=bf" "up" "textfont=it") ("appendix" "toc" "page")))
    (TeX-run-style-hooks
     "latex2e"
     "scrartcl"
@@ -22,6 +22,7 @@
     "graphicx"
     "subfig"
     "cite"
+    "appendix"
     "sectsty"
     "fancyhdr"
     "lastpage"

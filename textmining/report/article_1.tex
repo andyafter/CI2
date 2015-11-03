@@ -32,6 +32,7 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{cite}
+\usepackage[toc,page]{appendix}
 
 \usepackage{sectsty} % Enables custom section titles
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
@@ -80,7 +81,7 @@
   Chao(A0134563H), Devendra Desale(A0134465E), Pan An(A0134556A) } % Your name
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} % Configuration for the institution name
-National University of Technology % Your institution
+National University of Singapore % Your institution
 
 \par\end{flushleft}\HorRule} % Horizontal rule after the title
 
@@ -247,7 +248,8 @@ MsiaAccidentCases.csv. Some of the types are not consistent with the
 titles and summary contents. We correct them according to the title
 and summary content. Besides there are other and others in the type
 list. We change them to other to make it uniform. We corrected almost 24
-type of accidents of the records.
+type of accidents of the records. Corrected accident types is shown in
+Figure. 9 in Appendix.
 
 \subsection{Classification}
 \label{classification}
@@ -433,8 +435,14 @@ the results.
 To get the part of sentence which involves the user activity we are
 going to perform chunking, Grammar for chunking the activity, and
 represented in past continuous tense, and ends with noun phrase.
+The grammar used for the parsing:
 
-n our chunk there are many english stopwords which are causing the activities to be non consistent, we will be removing all english stopwords.
+\begin{verbatim}
+r"""Chunk:{<VB.?>+<VBG|VBR|JJ><RB.?>*
+<IN>*<DT>*<JJ.?>*<NN.?>*<DT>*<NN.?>}"""
+\end{verbatim}
+
+As in our chunk there are many english stopwords which are causing the activities to be non consistent, we will be removing all english stopwords.
 
 
 For indicating the activity we will only look into the sentences which have words with *.ing. This
@@ -479,6 +487,9 @@ Use SVM algorithm to build classification model to find out type of
 accidents (in terms of main causes) which are more common in fatal or
 catastrophic accidents of the osha data.
 
+Combining POS tagging with chunking we can extract information from
+well organized messages.
+
 The common activities in which person was involved could be found.
 Also we can get the things involved and other culprit for the
 accidents by the chunking.
@@ -503,6 +514,17 @@ Also try using the n-gram approach while performing the chunking.
 
 \bibliographystyle{plain}
 \bibliography{sample}{}
+
+
+\begin{appendices}
+
+\begin{figure}[h!]
+  \centering
+      \includegraphics[width=0.3\textwidth]{app1.png}
+  \caption{Corrected Accident Types}
+\end{figure}
+
+\end{appendices}
 
 %----------------------------------------------------------------------------------------
 
